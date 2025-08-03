@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/rec"/>
+    <qresource prefix="/">
+        <file>images/closeicon.png</file>
+        <file>images/back.png</file>
+        <file>images/backicon.jpg</file>
+        <file>images/backk.jpg</file>
+        <file>images/closeicon.jpg</file>
+        <file>images/LOGO.jpg</file>
+    </qresource>
+</RCC>

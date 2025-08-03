@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1572</width>
+    <height>953</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 77, 200);
+background-color: rgb(15, 94, 179);
+background-color:rgb(31, 0, 94);
+background-color: rgb(0, 0, 85);</string>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>20</width>
+    <height>20</height>
+   </size>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>100</y>
+      <width>271</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 25px;
+font: 700 12pt &quot;Segoe UI&quot;;
+background-color: rgb(0, 0, 127);
+border-color: rgb(255, 255, 255);
+color: rgb(255, 255, 255);
+border-width: 5px;
+border-style: solid;
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>TOTALIZER</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>100</y>
+      <width>271</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 25px;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 127);
+border-width: 5px;
+border-style: solid;
+font: 700 12pt &quot;Segoe UI&quot;;
+
+</string>
+    </property>
+    <property name="text">
+     <string>RATE CHANGE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>1030</x>
+      <y>100</y>
+      <width>271</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+border-radius: 25px;
+background-color: rgb(0, 0, 127);
+color: rgb(255, 255, 255);
+border-width: 5px;
+border-style: solid;
+
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>DISPENSER SALE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>1030</x>
+      <y>510</y>
+      <width>271</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 25px;
+color: rgb(255, 255, 255);
+border-width: 5px;
+border-style: solid;
+font: 700 12pt &quot;Segoe UI&quot;;
+background-color: rgb(0, 0, 127);
+
+</string>
+    </property>
+    <property name="text">
+     <string>CHECK GPRS</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>510</y>
+      <width>271</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 25px;
+background-color: rgb(85, 85, 127);
+border-width: 5px;
+border-style: solid;
+background-color: rgb(0, 85, 127);
+font: 700 12pt &quot;Segoe UI&quot;;
+background-color: rgb(0, 0, 127);
+color: rgb(255, 255, 255);
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>DISPENSER UNLOCKED</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>510</y>
+      <width>271</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 25px;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 127);
+font: 700 12pt &quot;Segoe UI&quot;;
+border-width: 5px;
+border-style: solid;
+
+</string>
+    </property>
+    <property name="text">
+     <string>DISPENSER LOCK</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>1030</x>
+      <y>290</y>
+      <width>271</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 25px;
+background-color: rgb(120, 120, 0);
+background-color: rgb(0, 0, 127);
+color: rgb(255, 255, 255);
+border-width: 5px;
+border-style: solid;
+font: 700 12pt &quot;Segoe UI&quot;;
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>DELETE ALL</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>290</y>
+      <width>271</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 25px;
+background-color: rgb(0, 0, 127);
+color: rgb(255, 255, 255);
+font: 700 12pt &quot;Segoe UI&quot;;
+border-width: 5px;
+border-style: solid;
+
+</string>
+    </property>
+    <property name="text">
+     <string>CHANGE PASSWORD</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>290</y>
+      <width>271</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 25px;
+background-color: rgb(0, 0, 127);
+color: rgb(255, 255, 255);
+
+border-color: rgb(255, 255, 255);
+font: 700 12pt &quot;Segoe UI&quot;;
+border-width: 5px;
+border-style: solid;
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>DISPENSER LAST SALE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_10">
+    <property name="geometry">
+     <rect>
+      <x>1470</x>
+      <y>0</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/images/closeicon.png);
+background-color: rgb(0, 77, 200);
+background-color: rgb(0, 0, 85);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_11">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 77, 200);
+background: transparent;
+border: none;
+image: url(:/images/LOGO.jpg);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1572</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuQT_LE_TEMEL_SOAP_LEMLER_2">
+    <property name="title">
+     <string>                              QT İLE TEMEL SOAP İŞLEMLERİ          </string>
+    </property>
+   </widget>
+   <addaction name="menuQT_LE_TEMEL_SOAP_LEMLER_2"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionlogo">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/images/MEPSAN-LOGO.jpg</normaloff>:/images/MEPSAN-LOGO.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>logo</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::TextHeuristicRole</enum>
+   </property>
+  </action>
+  <action name="actionclose">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/closeicon.png</normaloff>:/images/closeicon.png</iconset>
+   </property>
+   <property name="text">
+    <string>close</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::TextHeuristicRole</enum>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
